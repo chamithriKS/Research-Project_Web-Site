@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocol Visualizer | Educational Network Tool</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-network-wired"></i> Protocol Visualizer
+            </div>
+            <ul class="nav-links">
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#solution">The Solution</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#cta" class="btn-nav">Request Access</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Protocol Visualizer</h1>
+                <h2 style="color: var(--primary-color); margin-bottom: 20px; font-weight: 500;">Bringing Network Protocols to Life</h2>
+                <p>A desktop-based educational tool designed to help students understand real-time protocol message exchanges and transactions through simplified visualization and interactive learning. Built specifically to bridge the gap between networking theory and actual network behavior.</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary"><i class="fa-solid fa-layer-group"></i> Explore Features</a>
+                    <a href="https://youtube.com/your-demo-link" class="btn btn-secondary" target="_blank"><i class="fa-regular fa-circle-play"></i> View Demo</a> 
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="mockup-window">
+                    <img src="src/front_end.png" alt="Protocol Visualizer Interface">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="problem" class="section">
+        <div class="container align-center">
+            <div class="split-layout">
+                <div class="split-text" style="background: #f8fafc; padding: 40px; border-radius: 10px; border-left: 4px solid #ef4444;">
+                    <h2 class="section-title text-left" style="font-size: 2rem;">The Problem</h2>
+                    <h3 style="color: #ef4444; margin-bottom: 15px;">Learning Network Protocols Shouldn’t Be This Complicated</h3>
+                    <p>Networking students often struggle to connect theoretical protocol concepts with real packet-level behavior. Existing professional tools:</p>
+                    <ul class="check-list" style="margin-top: 15px;">
+                        <li><i class="fa-solid fa-xmark" style="color: #ef4444;"></i> Are designed for network engineers, not students.</li>
+                        <li><i class="fa-solid fa-xmark" style="color: #ef4444;"></i> Display overwhelming packet-level details.</li>
+                        <li><i class="fa-solid fa-xmark" style="color: #ef4444;"></i> Focus on low-level analysis instead of conceptual clarity.</li>
+                        <li><i class="fa-solid fa-xmark" style="color: #ef4444;"></i> Require steep learning effort.</li>
+                    </ul>
+                    <p class="mt-2 text-accent" style="font-weight: bold;">As a result, students memorize protocols — instead of understanding them.</p>
+                </div>
+                
+                <div id="solution" class="split-text" style="background: #f0fdf4; padding: 40px; border-radius: 10px; border-left: 4px solid #22c55e;">
+                    <h2 class="section-title text-left" style="font-size: 2rem;">The Solution</h2>
+                    <h3 style="color: #22c55e; margin-bottom: 15px;">A Tool Designed for Learning — Not Just Analysis</h3>
+                    <p>Protocol Visualizer is a desktop application developed specifically for networking students. It simplifies protocol message exchanges and visually represents transactions in a way that aligns with academic learning objectives.</p>
+                    <p class="mt-2">Instead of drowning in raw packet data, students can:</p>
+                    <ul class="check-list" style="margin-top: 15px;">
+                        <li><i class="fa-solid fa-check" style="color: #22c55e;"></i> Observe structured protocol message flows.</li>
+                        <li><i class="fa-solid fa-check" style="color: #22c55e;"></i> Understand request–response behavior.</li>
+                        <li><i class="fa-solid fa-check" style="color: #22c55e;"></i> Interact with simulated protocol actions.</li>
+                        <li><i class="fa-solid fa-check" style="color: #22c55e;"></i> Learn through guided exploration.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Key Features</h2>
+            <p class="section-subtitle">Purpose-built to transform passive packet inspection into interactive protocol exploration.</p>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <i class="fa-solid fa-right-left feature-icon"></i>
+                    <h3>Message Exchange Visualization</h3>
+                    <p>Clearly displays protocol transactions and communication sequences between entities, helping students understand message flow logic.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-magnifying-glass-minus feature-icon"></i>
+                    <h3>Simplified Representation</h3>
+                    <p>Focuses only on relevant protocol fields and behaviors instead of overwhelming raw packet structures.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-filter feature-icon"></i>
+                    <h3>Built-in Smart Filters</h3>
+                    <p>Quickly filter specific protocol messages to analyze targeted communication patterns with ease.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-terminal feature-icon"></i>
+                    <h3>Embedded CLI Interface</h3>
+                    <p>Interact with protocol simulations through an integrated command-line environment to enhance hands-on learning.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-gamepad feature-icon"></i>
+                    <h3>Simulation Controls</h3>
+                    <p>Trigger protocol actions using interactive buttons to observe real-time behavior and response generation.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-book-open feature-icon"></i>
+                    <h3>External Learning Repository</h3>
+                    <p>Integrated access to protocol documentation and learning resources for extended academic support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">From raw data to visual understanding in three seamless steps.</p>
+            
+            <div class="grid-3 mt-5">
+                <div class="card" style="box-shadow: none; border: 1px solid #e2e8f0;">
+                    <div style="font-size: 3rem; color: var(--primary-dark); font-weight: bold; margin-bottom: 10px;">1</div>
+                    <h3 style="color: var(--primary-color);">Capture</h3>
+                    <p>The application captures real-time network traffic within an Ubuntu virtual machine environment.</p>
+                </div>
+                <div class="card" style="box-shadow: none; border: 1px solid #e2e8f0;">
+                    <div style="font-size: 3rem; color: var(--primary-dark); font-weight: bold; margin-bottom: 10px;">2</div>
+                    <h3 style="color: var(--primary-color);">Parse</h3>
+                    <p>Captured packets are processed and filtered to extract meaningful protocol-level interactions.</p>
+                </div>
+                <div class="card" style="box-shadow: none; border: 1px solid #e2e8f0;">
+                    <div style="font-size: 3rem; color: var(--primary-dark); font-weight: bold; margin-bottom: 10px;">3</div>
+                    <h3 style="color: var(--primary-color);">Visualize</h3>
+                    <p>Structured protocol transactions are presented in a simplified format. Students can then interact with simulations dynamically.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container">
+            <div class="split-layout">
+                <div>
+                    <h2 class="section-title text-left">Academic Benefits</h2>
+                    <ul class="check-list mt-4">
+                        <li><i class="fa-solid fa-graduation-cap text-accent"></i> <strong>Strengthens Conceptual Understanding:</strong> Helps connect textbook theory with actual protocol behavior.</li>
+                        <li><i class="fa-solid fa-arrow-down text-accent"></i> <strong>Reduces Learning Complexity:</strong> Eliminates unnecessary packet-level noise.</li>
+                        <li><i class="fa-solid fa-lightbulb text-accent"></i> <strong>Encourages Active Learning:</strong> Interactive CLI and simulation buttons improve engagement.</li>
+                        <li><i class="fa-brands fa-ubuntu text-accent"></i> <strong>Designed for Academic Environments:</strong> Optimized to run on Ubuntu virtual machines used in networking labs.</li>
+                        <li><i class="fa-solid fa-flask text-accent"></i> <strong>Improves Lab Experience:</strong> Transforms passive packet inspection into interactive protocol exploration.</li>
+                    </ul>
+                </div>
+                <div style="background: var(--bg-dark); color: var(--white); padding: 40px; border-radius: 10px;">
+                    <h2 class="section-title text-left" style="color: var(--white); font-size: 2rem;">Who is it for?</h2>
+                    <p style="color: #cbd5e1; margin-bottom: 20px;">Protocol Visualizer is tailor-made for educational settings:</p>
+                    <ul class="check-list" style="color: var(--white);">
+                        <li><i class="fa-solid fa-user-graduate" style="color: var(--primary-color);"></i> Undergraduate Networking Students</li>
+                        <li><i class="fa-solid fa-chalkboard-user" style="color: var(--primary-color);"></i> Lecturers conducting protocol labs</li>
+                        <li><i class="fa-solid fa-building-columns" style="color: var(--primary-color);"></i> Academic institutions teaching network fundamentals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">Research Team</h2>
+            
+            <h3 class="subsection-title">Supervisors</h3>
+            <div class="grid-2 justify-center mb-5">
+                <div class="team-card">
+                    <h4>Dr Nuwan Kuruwitaarachchi</h4>
+                    <p class="role">Senior Lecturer, Faculty of Technology, USJ</p>
+                    <p class="email">kuruwita@sjp.ac.lk</p>
+                </div>
+                <div class="team-card">
+                    <h4>Dr. Chamara Liyanaarachchi</h4>
+                    <p class="role">Lecturer, Faculty of Technology, USJ</p>
+                    <p class="email">chamara.lekamalage@gmail.com</p>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Team Members</h3>
+            <div class="grid-3">
+                <div class="team-card">
+                    <h4>G.Y.J.D. Madhusanka</h4>
+                    <p class="role">Network Technology</p>
+                    <p class="email">ict21881@fot.sjp.ac.lk</p>
+                </div>
+                <div class="team-card">
+                    <h4>P.M.M.N. Gunasekara</h4>
+                    <p class="role">Network Technology</p>
+                    <p class="email">ict21841@fot.sjp.ac.lk</p>
+                </div>
+                <div class="team-card">
+                    <h4>K.S. Chamithri</h4>
+                    <p class="role">Network Technology</p>
+                    <p class="email">ict21818@fot.sjp.ac.lk</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="cta">
+        <div class="container text-center" style="padding-bottom: 40px; border-bottom: 1px solid #334155; margin-bottom: 40px;">
+            <h2 style="color: var(--white); font-size: 2.5rem; margin-bottom: 15px;">Transform the Way Students Learn Network Protocols</h2>
+            <p style="color: #cbd5e1; font-size: 1.2rem; margin-bottom: 30px;">Stop memorizing protocol formats. Start understanding real communication behavior.</p>
+            <a href="mailto:gy.janidu@gmail.com?subject=Request Access to Protocol Visualizer" class="btn btn-primary btn-lg" style="font-size: 1.2rem; padding: 15px 30px;"><i class="fa-solid fa-envelope"></i> Request Access</a>
+            <p style="margin-top: 15px; color: #94a3b8;"><small>Contact for Academic Use</small></p>
+        </div>
+        
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Protocol Visualizer</h3>
+                <p>An educational project focused on interactive network protocol analysis.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Institution</h4>
+                <p>University Of Sri Jayawardenepura</p>
+                <p>Faculty of Technology</p>
+                <p>2026</p>
+            </div>
+        </div>
+        <div class="copyright text-center">
+            <p>&copy; 2026 Protocol Visualizer Team. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
